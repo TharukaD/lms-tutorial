@@ -39,3 +39,9 @@ npm i -D prisma
 npm i react-hot-toast
 
 Uploadthing used for upload videos, images, audios
+
+Seed data
+
+1. create folder "scripts"
+2. create seed.ts inside the script folder
+3. run seed method inside ( node scripts/seed.ts )
