@@ -37,3 +37,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 npm i -D prisma
 npm i react-hot-toast
+
+Uploadthing used for upload videos, images, audios
