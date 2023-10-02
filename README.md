@@ -45,3 +45,6 @@ Seed data
 1. create folder "scripts"
 2. create seed.ts inside the script folder
 3. run seed method inside ( node scripts/seed.ts )
+
+Drag and drop
+npm i @hello-pangea/dnd
