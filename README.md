@@ -48,3 +48,6 @@ Seed data
 
 Drag and drop
 npm i @hello-pangea/dnd
+
+--- rich text editor ---
+npm i react-quill
