@@ -36,9 +36,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 //================================//
 
 npm i -D prisma
+
+--- Toast Messages ----
 npm i react-hot-toast
 
-Uploadthing used for upload videos, images, audios
+---- Uploadthing used for upload videos, images, audios ----
+https://uploadthing.com/
 
 Seed data
 
@@ -46,8 +49,13 @@ Seed data
 2. create seed.ts inside the script folder
 3. run seed method inside ( node scripts/seed.ts )
 
-Drag and drop
+---- Drag and drop -----
 npm i @hello-pangea/dnd
 
 --- rich text editor ---
 npm i react-quill
+
+------- Video processing --------
+https://dashboard.mux.com/
+npm i @mux/mux-node
+npm i @mux/mux-player-react
