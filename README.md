@@ -62,3 +62,7 @@ npm i @mux/mux-player-react
 
 ----- Alert dialog ---
 npx shadcn-ui@latest add alert-dialog
+
+----- Congratulations greeting ------
+npm i zustand
+pm i react-confetti
