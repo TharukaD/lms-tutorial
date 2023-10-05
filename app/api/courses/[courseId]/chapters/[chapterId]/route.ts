@@ -155,5 +155,6 @@ export async function DELETE(
     return NextResponse.json(deletedChapter);
   } catch (error) {
     console.log("CHAPTERS_ID_DELETE", error);
+    return new NextResponse("Internal error", { status: 500 });
   }
 }

@@ -31,6 +31,22 @@ export async function PATCH(
       return new NextResponse("Chapter not found", { status: 404 });
     }
 
+    const muxData = await db.muxData.findUnique({
+      where: {
+        chapterId,
+      },
+    });
+
+    if (
+      !chapter ||
+      !muxData ||
+      !chapter.title ||
+      !chapter.description ||
+      !chapter.videoUrl
+    ) {
+      return new NextResponse("Missing required fields", { status: 400 });
+    }
+
     const updatedChapter = await db.chapter.update({
       data: {
         isPublished: true,
