@@ -59,3 +59,6 @@ npm i react-quill
 https://dashboard.mux.com/
 npm i @mux/mux-node
 npm i @mux/mux-player-react
+
+----- Alert dialog ---
+npx shadcn-ui@latest add alert-dialog
