@@ -66,3 +66,9 @@ npx shadcn-ui@latest add alert-dialog
 ----- Congratulations greeting ------
 npm i zustand
 pm i react-confetti
+
+--- dynamic url generate ----
+npm i query-string
+/search/\_components/category-item.tsx
+
+npm i react-icons
